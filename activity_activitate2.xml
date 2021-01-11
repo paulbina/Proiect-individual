@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitate2">
+
+    <Button
+        android:id="@+id/beer"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:text="BEER"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/water"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:text="water"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/beer" />
+
+    <Button
+        android:id="@+id/soda"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:text="soda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/water" />
+
+    <Button
+        android:id="@+id/pui"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:text="pui"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/soda" />
+
+    <Button
+        android:id="@+id/porc"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:text="porc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pui" />
+
+
+    <Button
+        android:id="@+id/paste"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:text="paste"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/porc" />
+
+    <Button
+        android:id="@+id/peste"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:text="peste"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paste" />
+
+    <Button
+        android:id="@+id/mic_dejun"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:text="mic dejun"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/peste" />
+
+    <Button
+        android:id="@+id/NotaPlata"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:text="Nota de plata"
+        app:layout_constraintTop_toBottomOf="@+id/mic_dejun"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
